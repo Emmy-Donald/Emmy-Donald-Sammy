@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="UTF-8">
+        <title>eChat</title>
+        <style link rel="stylesheet" type="text/css" href="login style.css">
+      body{
+	max-width:1024px;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.logo{
+	vertical-align:middle;
+	width:90px;
+	height:90px;
+	border-radius:50%;
+	border:solid 2px white;
+        margin-bottom:10px;
+}
+h4{
+    color:white;
+    margin-top:-20px;
+    margin-bottom:-15px;
+    text-align:center;
+    
+}
+h2{
+    color:black;
+    font-family:serif;
+    margin-top:-15px;
+    font-size:60%;
+    margin-bottom:-20px;
+}
+hr{
+    margin-top:5px;
+    margin-bottom:0px;
+    width:40%;
+    margin-bottom:10px;
+    color:white;
+}
+.dcoder{
+	           
+	           width:30%;
+	           background:silver;
+	           padding:15px;
+	           float:right;
+                   margin-top:70px;
+                   
+}
+h3{
+    color:black;
+    font-size:16pt;
+    margin-bottom:8px;
+    font-family:serif;
+    font-weight:bold;
+    font-family: Comic Sans MS;
+    margin-left:200px;
+}
+button{
+    padding:6px;
+    width:70%;
+    border:solid 2px white;
+    border-radius:10px;
+    background:silver;
+    color:white;
+    margin-top:5px;
+    margin-bottom:20px;
+    font-weight:bold;
+    font-family: Comic Sans MS;
+    outline:none;
+    font-size:10pt;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+a{
+    color:white;
+    font-size:15px;
+    text-decoration:none;
+    font-family: Comic Sans MS;
+    text-transform:uppercase;
+}
+input{
+    padding:11px;
+    outline:none;
+    border-radius:10px;
+    border:solid 1px white;
+    margin:5px;
+    margin-bottom:5px;
+}
+.member{
+    font-weight:lighter;
+    color:white;
+    padding: 5px;
+    width: 50;
+    letter-spacing: 3px;
+    text-decoration: none;
+    background-color: silver;
+    border:solid 2px white;
+    border-radius: 10px;
+    font-family: Comic Sans MS;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 10pt;
+}
+</style>
+    </script>
+    </head>
+    <body>
+               
+       <div>
+        <form action=autocomplete="off"  class="dcoder" align="center">
+        	        <img src="logo.jpg" alt="logo" class="logo">
+        <input type="text" name="Username" id="username"placeholder=Username size="33%" required>
+        <br />
+            <input type="password" id="password" name="password" placeholder="Password" size="33%" required>
+            <br/>
+            <p>
+            <button type="Submit" id="submit" value="submit">Login</button>
+            <br>
+            	<a href="Password reset.html" width="50px"><b>Forgot Password</b></a>
+            <p></p>
+            <br>
+            <hr align="right" width="40%/">
+            <h4>OR</h4>
+            <hr align="left" width="40%"/>
+            <br>
+            <p></p>
+            <a href="Sign up.html" class="member">Create an account</a>
+           <br>
+           <br>
+        </form>
+        </div>
+<h3>Welcome to eChat</h3>
+<div class="mySlides"><img  src="images.jpeg"></div>
+    </body>
+    </html>
+   
